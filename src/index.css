@@ -1,7 +1,35 @@
 body {
-	background-image: url('green-paper-texture.jpg');
-	background-size: cover;
+	/* background-image: url('green-paper-texture.jpg'); */
+	/* background-size: cover; */
 	font-size: 100%;
 	height: 100%;
 	margin: 0;
+	background: linear-gradient(323deg, #6a11cb, #2575fc);
+    background-size: 400% 400%;
+
+    -webkit-animation: background-flow 26s ease infinite;
+    -moz-animation: background-flow 26s ease infinite;
+    -o-animation: background-flow 26s ease infinite;
+    animation: background-flow 26s ease infinite;
+}
+
+@-webkit-keyframes background-flow {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-moz-keyframes background-flow {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-o-keyframes background-flow {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@keyframes background-flow {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
 }

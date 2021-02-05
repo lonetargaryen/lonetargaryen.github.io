@@ -4,7 +4,7 @@ import "./Sidebar.css";
 import { SidebarData } from './SidebarData'
 
 function Sidebar () {
-	const navTitles = ["Home", "Projects", "Skills & Achievements", "Education", "Work Experience", "Connect"];
+	// const navTitles = ["Home", "Projects", "Skills & Achievements", "Education", "Work Experience", "Connect"];
 
 	return (
 		<div className="sidebar">
@@ -13,15 +13,15 @@ function Sidebar () {
 					{SidebarData.map((item, index) => {
 						return (
 							<li key={index} className={item.cName}>
-								{console.log(index)}
 								<Link to={item.path}>
 									{item.icon}
-									<span>{item.title}</span>
+									{/* <span>{item.title}</span> */}
 								</Link>
 							</li>
 						)
 					})}
 				</ul>
+				
 			</nav>
 		</div>
 	);

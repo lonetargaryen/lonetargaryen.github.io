@@ -1,9 +1,23 @@
 .sidebar {
     background-color: #060b26;
     height: 100vh;
-    width: 250px;
+    width: 9%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-background-clip: text; */
+}
+
+.nav-menu-items {
+    padding: 0px;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 0px;
+    font-size: calc(10px + 5vmin);
 }
