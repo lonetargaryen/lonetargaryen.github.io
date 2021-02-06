@@ -47,7 +47,8 @@
 }
 
 .fa-home, .fa-project-diagram, .fa-trophy, .fa-school, .fa-briefcase, .fa-link {
-    color: #ec0f90;
+    color: #FB4264;
+    /* text-shadow: 0 0 3vw #F40A35; */
     transition: color 200ms;
 }
 

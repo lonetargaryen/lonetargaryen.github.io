@@ -10,15 +10,17 @@ function App() {
 	return (
 		<Router>
 			<div className="App">
+			
+			<Sidebar />
 			<div id='stars'></div>
 			<div id='stars2'></div>
 			<div id='stars3'></div>
-				<Sidebar />
-				<Switch>
-					<Route path="/" exact>
-						{/* <h1>heyy lol</h1> */}
-					</Route>
-				</Switch>
+			<Switch>
+			
+				<Route path="/" exact>
+					{/* <h1>heyy lol</h1> */}
+				</Route>
+			</Switch>
 			</div>
   		</Router>
   	);
