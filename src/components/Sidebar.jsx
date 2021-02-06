@@ -21,7 +21,6 @@ function Sidebar () {
 						)
 					})}
 				</ul>
-				
 			</nav>
 		</div>
 	);

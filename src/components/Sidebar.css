@@ -1,13 +1,37 @@
 .sidebar {
-    background-color: #060b26;
-    height: 100vh;
+    height: 95vh;
     width: 9%;
     display: flex;
+    margin-left: 4%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* -webkit-text-fill-color: transparent; */
-    /* -webkit-background-clip: text; */
+    border-radius: 15px;
+    /* background-color: rgb(0, 0, 0, 0.55);  
+    backdrop-filter: blur(5px); */
+    /* background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    background-clip: padding-box;
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px; */
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    /* background: rgba( 74, 144, 226, 0.25 ); */
+    
+
+    background-color: rgb(95, 114, 189, 0.25); 
+    /* background: linear-gradient(358deg, rgb(106, 133, 182, 0.25), rgb(186, 200, 224, 0.25)); */
+    /* background: linear-gradient(358deg, rgb(95, 114, 189, 0.25), rgb(155, 35, 234, 0.25)); */
+    background-size: 400% 400%;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+    border-radius: 10px;
+
+    -webkit-animation: background-flow 8s ease infinite;
+    -moz-animation: background-flow 8s ease infinite;
+    -o-animation: background-flow 8s ease infinite;
+    animation: background-flow 8s ease infinite;
 }
 
 .nav-menu-items {
@@ -16,8 +40,38 @@
 
 .nav-text {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding: 8px 0px 8px 0px;
-    font-size: calc(10px + 5vmin);
+    padding: 75% 1%;
+    font-size: calc(10px + 3vmin);
+}
+
+.fa-home, .fa-project-diagram, .fa-trophy, .fa-school, .fa-briefcase, .fa-link {
+    color: #ec0f90;
+    transition: color 200ms;
+}
+
+.fa-home:hover, .fa-project-diagram:hover, .fa-trophy:hover, .fa-school:hover, .fa-briefcase:hover, .fa-link:hover {
+    color: #FFD700;
+}
+
+@-webkit-keyframes background-flow {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@-moz-keyframes background-flow {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@-o-keyframes background-flow {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@keyframes background-flow {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
 }
