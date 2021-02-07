@@ -181,6 +181,12 @@ ul {
     .nav-text, .navbar-toggle {
         font-size: calc(10px + 6vmin);
     }
+
+    .mega-sidebar {
+        height: 10%;
+        width: 100%;
+        flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -195,5 +201,11 @@ ul {
 
     .nav-text, .navbar-toggle {
         font-size: calc(10px + 5vmin);
+    }
+
+    .mega-sidebar {
+        height: 10%;
+        width: 100%;
+        flex-direction: row;
     }
 }

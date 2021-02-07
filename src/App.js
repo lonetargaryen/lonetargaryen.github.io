@@ -3,6 +3,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Home from './pages/Home.jsx'
 import Sidebar from './components/Sidebar';
 import './App.css';
 
@@ -19,8 +20,8 @@ function App() {
 				<Sidebar />
 				<Switch>
 				
-					<Route path="/" exact>
-						{/* <h1>heyy lol</h1> */}
+					<Route path="/">
+						<Home />
 					</Route>
 				</Switch>
 			</div>
