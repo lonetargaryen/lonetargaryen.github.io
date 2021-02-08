@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    color: #66FF66;
+    font-size: 4rem;
+}
+
+.blinking-cursor {
+	-webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #66FF66;
+	}
+}
+
+@-moz-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #66FF66;
+	}
+}
+
+@-webkit-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #66FF66;
+	}
+}
+
+@-ms-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #66FF66;
+	}
+}
+
+@-o-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #66FF66;
+	}
+}

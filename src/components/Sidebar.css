@@ -165,7 +165,12 @@ ul {
 }
 
 .fa-times, .fa-bars {
-    color: #84fab0;
+    color: #66FF66;
+    transition: color 200ms;
+}
+
+.fa-times:hover, .fa-bars:hover {
+    color: #FB4264;
 }
 
 @media only screen and (max-width: 480px) {
