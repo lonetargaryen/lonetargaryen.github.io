@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 
 h1 {
-    font-family: 'Source Code Pro', monospace;
-    color: #66FF66;
-    font-size: 4rem;
+    font-family: 'DM Serif Display', serif;
+    color: #667eea;
+    font-size: 5rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	/* padding-top: 150%; */
 }
+
+/* .first-name {
+	color: transparent;
+        -webkit-text-stroke-width: 0.5px;
+       -webkit-text-stroke-color: #667eea;
+    font-size: 100px;
+} */
 
 .blinking-cursor {
 	-webkit-animation: 1s blink step-end infinite;

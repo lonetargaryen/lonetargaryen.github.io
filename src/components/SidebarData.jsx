@@ -15,13 +15,13 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Skills & Achievements',
+        title: 'Skills',
         path: '/skills-and-achievements',
         icon: <FontAwesomeIcon icon={faTrophy} />,
         cName: 'nav-text'
     },
     {
-        title: 'Work Experience',
+        title: 'Experience',
         path: '/work-exp',
         icon: <FontAwesomeIcon icon={faBriefcase} />,
         cName: 'nav-text'

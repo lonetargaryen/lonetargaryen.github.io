@@ -13,7 +13,9 @@ body {
     -o-animation: background-flow 26s ease infinite;
     animation: background-flow 26s ease infinite; */
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    overflow: hidden;
+    background-size: 100% 500%;
+    /* background-size: contain; */
+    /* overflow: hidden; */
 }
 
 /* @-webkit-keyframes background-flow {
