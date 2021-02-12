@@ -31,8 +31,8 @@ function Sidebar () {
 								<div className="list-item-div">
 									<Link to={item.path}>
 										{item.icon}
-										<span>{item.title}</span>
 									</Link>
+									<span className="tooltip-text">{item.title}</span>
 								</div>
 							</li>
 						)
