@@ -5,17 +5,131 @@
 	src: local('SFPro'), url(../fonts/SFPro.ttf) format('truetype');
 }
 
+@keyframes noise-anim {
+	0% {
+		clip-path: inset(27% 0 54% 0);
+   }
+	5% {
+		clip-path: inset(26% 0 72% 0);
+   }
+	10% {
+		clip-path: inset(31% 0 48% 0);
+   }
+	15% {
+		clip-path: inset(24% 0 51% 0);
+   }
+	20% {
+		clip-path: inset(43% 0 25% 0);
+   }
+	25% {
+		clip-path: inset(70% 0 8% 0);
+   }
+	30% {
+		clip-path: inset(18% 0 78% 0);
+   }
+	35% {
+		clip-path: inset(1% 0 63% 0);
+   }
+	40% {
+		clip-path: inset(84% 0 15% 0);
+   }
+	45% {
+		clip-path: inset(55% 0 42% 0);
+   }
+	50% {
+		clip-path: inset(73% 0 22% 0);
+   }
+	55% {
+		clip-path: inset(23% 0 54% 0);
+   }
+	60% {
+		clip-path: inset(9% 0 71% 0);
+   }
+	65% {
+		clip-path: inset(33% 0 13% 0);
+   }
+	70% {
+		clip-path: inset(20% 0 10% 0);
+   }
+	75% {
+		clip-path: inset(14% 0 65% 0);
+   }
+	80% {
+		clip-path: inset(100% 0 1% 0);
+   }
+	85% {
+		clip-path: inset(87% 0 4% 0);
+   }
+	90% {
+		clip-path: inset(82% 0 11% 0);
+   }
+	95% {
+		clip-path: inset(96% 0 1% 0);
+   }
+	100% {
+		clip-path: inset(41% 0 12% 0);
+   }
+}
+
 @keyframes glitch-animation {
 	0% {
 		font-family: 'SFPro', serif;
 	}
-	90% {
+	85% {
 		font-family: 'Source Code Pro', monospace;
+		color: #66FF66;
+	}
+}
+
+@keyframes glitch-animation-supporting {
+	0% {
+		opacity: 0;
+	}
+	85% {
+		opacity: 1;
 	}
 }
 
 .animation-hook {
 	animation: 10s glitch-animation step-end infinite;
+	position: relative;
+}
+
+.animation-hook::before, .animation-hook::after {
+	content: attr(data-text);
+	position: absolute;
+	/* top: 0; */
+	/* left: 0; */
+	/* width: 100%; */
+	/* height: 100%; */
+	animation: 10s glitch-animation-supporting step-end infinite, noise-anim 2s infinite linear alternate-reverse;
+}
+
+.animation-hook::before {
+	/* ... anything needed to make it identical */
+  
+	/* variation */
+	left: 17%;
+	text-shadow: -1px 0 red;
+	
+	/* important: opaque background masks the original */
+	background: black;
+
+	clip: rect(44px, 450px, 56px, 0);
+	/* animation: noise-anim 2s infinite linear alternate-reverse; */
+}
+.animation-hook::after {
+	/* ... anything needed to make it identical */
+  
+	/* variation */
+	left: 11%;
+	text-shadow: -1px 0 blue;
+	
+	/* important: opaque background masks the original */
+	background: black;
+
+	clip: rect(44px, 450px, 56px, 0);
+	/* animation: noise-anim 2s infinite linear alternate-reverse; */
 }
 
 .root-name-div {
@@ -32,7 +146,6 @@
 }
 
 .root-name-div h1 {
-    /* font-family: 'SFPro', serif; */
     color: #667eea;
     font-size: 6rem;
 	letter-spacing: 4px;
@@ -52,62 +165,3 @@
 	color: #FB4264;
 }
 
-/* .first-name {
-	color: transparent;
-        -webkit-text-stroke-width: 0.5px;
-       -webkit-text-stroke-color: #667eea;
-    font-size: 100px;
-} */
-
-/* .blinking-cursor {
-	-webkit-animation: 1s blink step-end infinite;
-	-moz-animation: 1s blink step-end infinite;
-	-ms-animation: 1s blink step-end infinite;
-	-o-animation: 1s blink step-end infinite;
-	animation: 1s blink step-end infinite;
-}
-
-@keyframes blink {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: #66FF66;
-	}
-}
-
-@-moz-keyframes blink {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: #66FF66;
-	}
-}
-
-@-webkit-keyframes blink {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: #66FF66;
-	}
-}
-
-@-ms-keyframes blink {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: #66FF66;
-	}
-}
-
-@-o-keyframes blink {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: #66FF66;
-	}
-} */

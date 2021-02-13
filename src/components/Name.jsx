@@ -37,8 +37,8 @@ class Name extends React.Component {
 		return (
 			<div className="root-name-div">
 				<h3>Hey there<span className="special-punctuation">!</span> I am</h3>
-				<h1 className="first-name animation-hook">Swarnim</h1>
-				<h1 className="last-name animation-hook">Sonawane</h1>
+				<h1 className="first-name animation-hook" data-text="Swarnim">Swarnim</h1>
+				<h1 className="last-name animation-hook" data-text="Sonawane">Sonawane</h1>
 			</div>
 		)
 	}
