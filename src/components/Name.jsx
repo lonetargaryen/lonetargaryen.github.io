@@ -36,7 +36,9 @@ class Name extends React.Component {
 	render() {
 		return (
 			<div className="root-name-div">
-				<h1 id="demo"><span className="first-name">Sample</span> Text</h1>
+				<h3>Hey there<span className="special-punctuation">!</span> I am</h3>
+				<h1 className="first-name animation-hook">Swarnim</h1>
+				<h1 className="last-name animation-hook">Sonawane</h1>
 			</div>
 		)
 	}

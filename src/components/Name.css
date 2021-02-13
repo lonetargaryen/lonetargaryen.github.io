@@ -1,13 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-h1 {
-    font-family: 'DM Serif Display', serif;
+@font-face {
+	font-family: 'SFPro';
+	src: local('SFPro'), url(../fonts/SFPro.ttf) format('truetype');
+}
+
+@keyframes glitch-animation {
+	0% {
+		font-family: 'SFPro', serif;
+	}
+	90% {
+		font-family: 'Source Code Pro', monospace;
+	}
+}
+
+.animation-hook {
+	animation: 10s glitch-animation step-end infinite;
+}
+
+.root-name-div {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 5vw;
+}
+
+.root-name-div h3 {
+    font-family: 'SFPro', serif;
+    color: white;
+    font-size: 4rem;
+}
+
+.root-name-div h1 {
+    /* font-family: 'SFPro', serif; */
     color: #667eea;
-    font-size: 5rem;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	/* padding-top: 150%; */
+    font-size: 6rem;
+	letter-spacing: 4px;
+	padding-left: 15%;
+}
+
+.first-name {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.last-name {
+	margin-top: 0;
+}
+
+.special-punctuation {
+	color: #FB4264;
 }
 
 /* .first-name {
@@ -17,7 +59,7 @@ h1 {
     font-size: 100px;
 } */
 
-.blinking-cursor {
+/* .blinking-cursor {
 	-webkit-animation: 1s blink step-end infinite;
 	-moz-animation: 1s blink step-end infinite;
 	-ms-animation: 1s blink step-end infinite;
@@ -68,4 +110,4 @@ h1 {
 	50% {
 		color: #66FF66;
 	}
-}
+} */
