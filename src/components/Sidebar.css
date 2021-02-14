@@ -172,6 +172,7 @@ ul {
         -webkit-backdrop-filter: blur( 2px );
         /* margin-top: auto; */
         /* margin-bottom: auto; */
+        z-index: 1;
     }
 
     .nav-text, .navbar-toggle {

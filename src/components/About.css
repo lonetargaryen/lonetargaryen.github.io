@@ -1,0 +1,36 @@
+.about-me-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'SFPro', serif;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(95, 114, 189, 0.25);
+    border-radius: 6px;
+    height: 100%;
+}
+
+h4.about-me-heading {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+span.student-span {
+    color: #FB4264;
+}
+
+span.engineering-span {
+    color: #74ebd5;
+}
+
+.about-me-p {
+    font-size: 1.5rem;
+    color: white;
+    width: 70%;
+}
+
+.code-span {
+    color: #43e97b;
+}
