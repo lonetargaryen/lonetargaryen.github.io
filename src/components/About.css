@@ -9,6 +9,7 @@
     background-color: rgb(95, 114, 189, 0.25);
     border-radius: 6px;
     height: 100%;
+    animation: fadeIn 0.5s ease-in both;
 }
 
 h4.about-me-heading {
@@ -71,11 +72,9 @@ span.engineering-span {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .about-me-div {
         width: 90%;
-        margin-bottom: 4%;
     }
 
     .final-p {
-        padding-bottom: 2%;
         width: 80%;
     }
 
