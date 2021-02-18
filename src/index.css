@@ -1,7 +1,13 @@
+@font-face {
+	font-family: 'SFPro';
+	src: local('SFPro'), url(./fonts/SFPro.ttf) format('truetype');
+}
+
 body {
 	/* background-image: url('green-paper-texture.jpg'); */
 	/* background-size: cover; */
 	font-size: 100%;
+	font-family: 'SFPro', serif;
 	height: 100%;
 	margin: 0;
 	/* background: linear-gradient(323deg, #6a11cb, #0640a3);

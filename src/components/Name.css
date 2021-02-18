@@ -1,9 +1,4 @@
 @font-face {
-	font-family: 'SFPro';
-	src: local('SFPro'), url(../fonts/SFPro.ttf) format('truetype');
-}
-
-@font-face {
 	font-family: 'SFMonoRegular';
 	src: local('SFMonoRegular'), url(../fonts/SFMonoRegular.woff) format('woff');
 }
@@ -155,7 +150,6 @@
 }
 
 .root-name-div h3 {
-    font-family: 'SFPro', serif;
     color: white;
     font-size: 4rem;
 }

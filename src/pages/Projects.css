@@ -1,0 +1,8 @@
+.root-projects-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-heading h1 {
+    color: white;
+}

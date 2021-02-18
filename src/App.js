@@ -4,6 +4,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './pages/Home.jsx'
+import Projects from './pages/Projects.jsx'
 import Sidebar from './components/Sidebar';
 import './App.css';
 
@@ -20,7 +21,10 @@ function App() {
 				<Sidebar />
 				<Switch>
 				
-					<Route path="/" exact>
+					<Route path="/projects">
+						<Projects />
+					</Route>
+					<Route path="/">
 						<Home />
 					</Route>
 		
