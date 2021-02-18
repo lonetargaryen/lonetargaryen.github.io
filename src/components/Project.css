@@ -1,0 +1,34 @@
+.project-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-div img {
+    object-fit: cover;
+    height: 45vmin;
+    border-radius: 8px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    background-color: rgb(95, 114, 189, 0.25);
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info h2 {
+    font-size: 3rem;
+    color: #FB4264;
+}
+
+.project-info p {
+    font-size: 1.2rem;
+    color: white;
+    width: 90%;
+}

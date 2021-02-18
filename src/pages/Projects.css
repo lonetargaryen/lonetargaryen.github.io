@@ -1,6 +1,18 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -10%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
 .root-projects-div {
     display: flex;
     flex-direction: column;
+    animation: fadeIn 0.5s ease-in both;
 }
 
 .projects-heading {
@@ -63,5 +75,37 @@
     }
     50% {
         color: #f6d365;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .root-projects-div {
+        width: 100%;
+    }
+
+    .projects-heading {
+        padding-top: 0%;
+        text-align: center;
+    }
+
+    .projects-heading h1 {
+        font-size: 3rem;
+        padding-left: 0%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .root-projects-div {
+        width: 100%;
+    }
+
+    .projects-heading {
+        padding-top: 0%;
+        text-align: center;
+    }
+
+    .projects-heading h1 {
+        font-size: 5rem;
+        padding-left: 0%;
     }
 }
