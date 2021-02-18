@@ -3,6 +3,65 @@
     flex-direction: column;
 }
 
+.projects-heading {
+    padding-top: 1%;
+}
+
 .projects-heading h1 {
-    color: white;
+    font-size: 4rem;
+    color: #f6d365;
+    padding-left: 6%;
+}
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+  
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #f6d365;
+    }
+}
+
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #f6d365;
+    }
+}
+
+@-webkit-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #f6d365;
+    }
+}
+
+@-ms-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #f6d365;
+    }
+}
+
+@-o-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #f6d365;
+    }
 }
