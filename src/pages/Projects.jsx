@@ -3,6 +3,7 @@ import Project from '../components/Project'
 
 import './Projects.css'
 import arkvl from '../images/arkvl.png'
+import moboshop from '../images/moboshop.png'
 
 class Projects extends React.Component {
     constructor(props) {
@@ -39,7 +40,17 @@ class Projects extends React.Component {
             "projectDesc": "Arkvl is a web-based book recommender system that recommends books to users based on their likes and lets users explore books from a wide catalog based on their favourite authors and genres.",
             "technologies": ["React", "Flask", "PostgreSQL"],
             "projectLink": "https://arkvl.space",
-            "githubLink": "https://github.com/LethalPants/arkvl"
+            "githubLink": "https://github.com/LethalPants/arkvl",
+            "youtubeLink": ""
+        },
+        {
+            "imgSource": moboshop,
+            "projectTitle": "Moboshop",
+            "projectDesc": "Moboshop is a project my team and I made for nwHacks 2021. It's an innovative solution that uses computer vision to add items to your bill as you place them in your cart. After a customer has completed shopping, they can checkout on the app with the tap of a button, and walk out the store. It's that simple!",
+            "technologies": ["Tensorflow", "React", "Node.js"],
+            "projectLink": "https://devpost.com/software/moboshop",
+            "githubLink": "https://github.com/Sidhant341/contactless-payment-system",
+            "youtubeLink": "https://www.youtube.com/watch?v=rRioIG9Tavw"
         }
     ];
 
@@ -57,6 +68,18 @@ class Projects extends React.Component {
                     technologies={this.projectArray[0].technologies}
                     projectLink={this.projectArray[0].projectLink}
                     githubLink={this.projectArray[0].githubLink}
+                    youtubeLink={this.projectArray[0].youtubeLink}
+                    isEven={true}
+                    />
+                    <Project 
+                    imgSource={this.projectArray[1].imgSource} 
+                    projectTitle={this.projectArray[1].projectTitle} 
+                    projectDesc={this.projectArray[1].projectDesc} 
+                    technologies={this.projectArray[1].technologies}
+                    projectLink={this.projectArray[1].projectLink}
+                    githubLink={this.projectArray[1].githubLink}
+                    youtubeLink={this.projectArray[1].youtubeLink}
+                    isEven={false}
                     />
                 </div>
             </div>

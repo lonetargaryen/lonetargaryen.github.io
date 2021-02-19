@@ -128,14 +128,12 @@ ul {
     justify-content: center;
 }
 
-/* .fa-home, .fa-project-diagram, .fa-trophy, .fa-school, .fa-briefcase, .fa-link {
-    color: #FB4264;
+.fa-home, .fa-project-diagram, .fa-trophy, .fa-school, .fa-briefcase, .fa-link {
     transition: color 200ms;
-} */
+}
 
 .sidebar-icons {
     color: #FB4264;
-    transform: color 200ms;
 }
 
 .fa-home:hover, .fa-project-diagram:hover, .fa-trophy:hover, .fa-school:hover, .fa-briefcase:hover, .fa-link:hover {
