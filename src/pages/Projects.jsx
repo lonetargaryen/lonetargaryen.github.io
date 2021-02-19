@@ -50,7 +50,14 @@ class Projects extends React.Component {
                     <h1>{this.state.pageTitle}<span className="blinking-cursor">|</span></h1>
                 </div>
                 <div className="projects-content">
-                    <Project imgSource={this.projectArray[0].imgSource} projectTitle={this.projectArray[0].projectTitle} projectDesc={this.projectArray[0].projectDesc} />
+                    <Project 
+                    imgSource={this.projectArray[0].imgSource} 
+                    projectTitle={this.projectArray[0].projectTitle} 
+                    projectDesc={this.projectArray[0].projectDesc} 
+                    technologies={this.projectArray[0].technologies}
+                    projectLink={this.projectArray[0].projectLink}
+                    githubLink={this.projectArray[0].githubLink}
+                    />
                 </div>
             </div>
         )

@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import "./Sidebar.css";
 import { SidebarData } from './SidebarData'
@@ -29,9 +29,9 @@ function Sidebar () {
 						return (
 							<li key={index} className={item.cName}>
 								<div className="list-item-div">
-									<Link to={item.path}>
+									<NavLink exact to={item.path} className="sidebar-icons" activeStyle={{color: "#FFD700"}}>
 										{item.icon}
-									</Link>
+									</NavLink>
 									<span className="tooltip-text">{item.title}</span>
 								</div>
 							</li>
