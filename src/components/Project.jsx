@@ -12,7 +12,7 @@ class Project extends React.Component {
             <div className="super-project-div">
                 {this.props.isEven ? 
                 <div className="project-div">
-                    <img src={this.props.imgSource} alt="Screenshot of Project" />
+                    <img src={this.props.imgSource} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
                     <div className="project-info">
                         <h2>{this.props.projectTitle}</h2>
                         <p>{this.props.projectDesc}</p>
@@ -48,7 +48,7 @@ class Project extends React.Component {
                         </div>
                     </div>
                 </div> : 
-                <div className="project-div">
+                <div className="project-div reverse-project-div">
                     <div className="project-info odd-project-info">
                         <h2>{this.props.projectTitle}</h2>
                         <p>{this.props.projectDesc}</p>
@@ -83,7 +83,7 @@ class Project extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <img src={this.props.imgSource} alt="Screenshot of Project" />
+                    <img src={this.props.imgSource} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
                 </div>
                 }
             </div>

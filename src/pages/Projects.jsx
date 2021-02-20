@@ -4,6 +4,7 @@ import Project from '../components/Project'
 import './Projects.css'
 import arkvl from '../images/arkvl.png'
 import moboshop from '../images/moboshop.png'
+import modular from '../images/modular.png'
 
 class Projects extends React.Component {
     constructor(props) {
@@ -47,10 +48,19 @@ class Projects extends React.Component {
             "imgSource": moboshop,
             "projectTitle": "Moboshop",
             "projectDesc": "Moboshop is a project my team and I made for nwHacks 2021. It's an innovative solution that uses computer vision to add items to your bill as you place them in your cart. After a customer has completed shopping, they can checkout on the app with the tap of a button, and walk out the store. It's that simple!",
-            "technologies": ["Tensorflow", "React", "Node.js"],
+            "technologies": ["Tensorflow", "Ionic", "Node.js"],
             "projectLink": "https://devpost.com/software/moboshop",
             "githubLink": "https://github.com/Sidhant341/contactless-payment-system",
             "youtubeLink": "https://www.youtube.com/watch?v=rRioIG9Tavw"
+        },
+        {
+            "imgSource": modular,
+            "projectTitle": "Modular Supply Chain System",
+            "projectDesc": "This is a project my team and I built for ExecuteHack. It's an efficient AI-enhanced supply chain that will facilitate the distribution of a COVID-19 vaccine in India, and deal with the pitfalls of the existing cold chain.",
+            "technologies": ["Ionic", "Node.js", "PostgreSQL"],
+            "projectLink": "https://devpost.com/software/modular-supply-chain-system",
+            "githubLink": "https://github.com/LethalPants/supply-chain-user-app",
+            "youtubeLink": "https://www.youtube.com/watch?v=U1q644qJzUo"
         }
     ];
 
@@ -70,6 +80,7 @@ class Projects extends React.Component {
                     githubLink={this.projectArray[0].githubLink}
                     youtubeLink={this.projectArray[0].youtubeLink}
                     isEven={true}
+                    sidebar={this.props.sidebar}
                     />
                     <Project 
                     imgSource={this.projectArray[1].imgSource} 
@@ -80,6 +91,18 @@ class Projects extends React.Component {
                     githubLink={this.projectArray[1].githubLink}
                     youtubeLink={this.projectArray[1].youtubeLink}
                     isEven={false}
+                    sidebar={this.props.sidebar}
+                    />
+                    <Project 
+                    imgSource={this.projectArray[2].imgSource} 
+                    projectTitle={this.projectArray[2].projectTitle} 
+                    projectDesc={this.projectArray[2].projectDesc} 
+                    technologies={this.projectArray[2].technologies}
+                    projectLink={this.projectArray[2].projectLink}
+                    githubLink={this.projectArray[2].githubLink}
+                    youtubeLink={this.projectArray[2].youtubeLink}
+                    isEven={true}
+                    sidebar={this.props.sidebar}
                     />
                 </div>
             </div>

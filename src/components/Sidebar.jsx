@@ -4,13 +4,8 @@ import { Link, NavLink } from 'react-router-dom';
 
 import "./Sidebar.css";
 import { SidebarData } from './SidebarData'
-import { useState } from 'react';
 
-function Sidebar () {
-	// const navTitles = ["Home", "Projects", "Skills & Achievements", "Work Experience", "Connect"];
-	const [sidebar, setSidebar] = useState(false);
-	const showSidebar = () => setSidebar(!sidebar);
-
+function Sidebar ({sidebar, showSidebar}) {
 	return (
 		<div className="mega-sidebar">
 			<div className="sidebar">
