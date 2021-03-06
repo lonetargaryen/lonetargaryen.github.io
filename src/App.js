@@ -6,6 +6,7 @@ import {
 import { useState } from 'react';
 import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
+import Experience from './pages/Experience.jsx'
 import Sidebar from './components/Sidebar';
 import './App.css';
 
@@ -28,6 +29,9 @@ function App() {
 				
 					<Route path="/projects">
 						<Projects sidebar={sidebar} />
+					</Route>
+					<Route path="/experience">
+						<Experience sidebar={sidebar} />
 					</Route>
 					<Route path="/">
 						<Home />

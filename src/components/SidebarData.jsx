@@ -22,7 +22,7 @@ export const SidebarData = [
     },
     {
         title: 'Experience',
-        path: '/work-exp',
+        path: '/experience',
         icon: <FontAwesomeIcon icon={faBriefcase} />,
         cName: 'nav-text'
     },
