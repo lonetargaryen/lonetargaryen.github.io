@@ -79,3 +79,21 @@
         color: #4dd4ac;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .root-exp-div {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .left-container, .right-container {
+        width: 100%;
+    }
+
+    .left-container h1 {
+        font-size: 3rem;
+        text-align: center;
+        padding-left: 0%;
+    }
+}
