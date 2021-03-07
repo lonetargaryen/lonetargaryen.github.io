@@ -97,3 +97,21 @@
         padding-left: 0%;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .root-exp-div {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .left-container, .right-container {
+        width: 100%;
+    }
+
+    .left-container h1 {
+        font-size: 5rem;
+        text-align: center;
+        padding-left: 0%;
+    }
+}

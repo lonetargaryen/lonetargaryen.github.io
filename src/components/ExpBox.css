@@ -17,6 +17,18 @@
     ) 1 100%;
 }
 
+.expbox-pointer {
+    display: inline;
+    position: fixed;
+    background: #e35d6a;
+    width: 4%;
+    /* max-height: 1%; */
+    font-size: 1%;
+    top: 59%;
+    left: 4.5%;
+    opacity: 0.7;
+}
+
 .expbox-position {
     font-size: 2rem;
     margin-bottom: 0;
@@ -42,5 +54,45 @@
 @media only screen and (max-width: 480px) {
     .div-expbox {
         margin-left: 8%;
+    }
+
+    .expbox-pointer {
+        position: relative;
+        width: 6vw;
+        /* max-height: 1%; */
+        font-size: 1%;
+        top: 15vh;
+        left: -9vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .expbox-position {
+        font-size: 2.5rem;
+    }
+
+    .expbox-company {
+        font-size: 1.6rem;
+    }
+
+    .expbox-duration {
+        font-size: 1.2rem;
+    }
+
+    .expbox-description {
+        font-size: 1.4rem;
+    }
+
+    .div-expbox {
+        margin-left: 8%;
+    }
+
+    .expbox-pointer {
+        position: relative;
+        width: 6vw;
+        /* max-height: 1%; */
+        font-size: 1%;
+        top: 7vh;
+        left: -8vw;
     }
 }
