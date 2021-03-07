@@ -27,12 +27,34 @@
     padding-left: 12%;
 }
 
+.right-container h1 {
+    color: #a1c4fd;
+    font-size: 4rem;
+    padding-left: 12%;
+}
+
 .left-container .blinking-cursor {
     -webkit-animation: 1s blink2 step-end infinite;
     -moz-animation: 1s blink2 step-end infinite;
     -ms-animation: 1s blink2 step-end infinite;
     -o-animation: 1s blink2 step-end infinite;
     animation: 1s blink2 step-end infinite;
+}
+
+.right-container .blinking-cursor2 {
+    -webkit-animation: 1s blink3 step-end infinite;
+    -moz-animation: 1s blink3 step-end infinite;
+    -ms-animation: 1s blink3 step-end infinite;
+    -o-animation: 1s blink3 step-end infinite;
+    animation: 1s blink3 step-end infinite;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12%;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
 }
   
 @keyframes blink2 {
@@ -77,6 +99,51 @@
     }
     50% {
         color: #4dd4ac;
+    }
+}
+
+@keyframes blink3 {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #a1c4fd;
+    }
+}
+
+@-moz-keyframes blink3 {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #a1c4fd;
+    }
+}
+
+@-webkit-keyframes blink3 {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #a1c4fd;
+    }
+}
+
+@-ms-keyframes blink3 {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #a1c4fd;
+    }
+}
+
+@-o-keyframes blink3 {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #a1c4fd;
     }
 }
 
