@@ -1,19 +1,44 @@
 .div-skillbox {
-    display: inline;
+    display: flex;
     padding: 1% 2%;
     margin-right: 2%;
     margin-top: 2%;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     color: #92fe9d;
     /* font-size: 1.2rem; */
     border-radius: 8px;
     background-image: linear-gradient(135deg, rgba(245, 247, 250, 0.25) 0%, rgba(195, 207, 226, 0.25) 100%);
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
 }
 
 .div-skillbox p {
     display: inline;
     color: #ccd6f6;
-    white-space: initial;
+    /* white-space: initial; */
+}
+
+.skillbox-fa {
+    color: #FB4264;
+    transition: color 200ms;
+    font-size: 1.5rem;
+    padding-right: 9%;
+}
+
+.div-skillbox:hover .skillbox-fa {
+    color: #FFD700;
+}
+
+@media only screen and (max-width: 480px) {
+    .div-skillbox {
+        margin-right: 2%;
+        margin-left: 2%;
+        padding: 2% 4%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .div-skillbox p {
+        font-size: 1.9rem;
+    }
 }

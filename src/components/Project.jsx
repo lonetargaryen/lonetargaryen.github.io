@@ -2,17 +2,36 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import Skeleton from 'react-loading-skeleton';
 
 import './Project.css'
 
 class Project extends React.Component {
 
+    constructor(props) {
+        super(props);
+   
+        this.state = {
+            image: false,
+        }
+    }
+
+    handleImageLoaded() {
+        this.setState({ image: true });
+        console.log("hiiiii");
+    }
+
 	render() {
-		return (
+        
+        const { loaded } = this.state.image;
+        const imageStyle = !loaded ? { display: "none" } : { display: "none" };
+		
+        return (
             <div className="super-project-div">
                 {this.props.isEven ? 
                 <div className="project-div">
-                    <img src={this.props.imgSource} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                    {!this.state.image && <Skeleton height="45vmin" width={700} /> }
+                    <img src={this.props.imgSource} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
                     <div className="project-info">
                         <h2>{this.props.projectTitle}</h2>
                         <p>{this.props.projectDesc}</p>
@@ -83,7 +102,8 @@ class Project extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <img src={this.props.imgSource} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                    {!this.state.image && <Skeleton height="45vmin" width={700} /> }
+                    <img src={this.props.imgSource} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
                 </div>
                 }
             </div>

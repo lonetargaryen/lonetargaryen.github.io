@@ -1,6 +1,7 @@
 import React from 'react'
 import ExpBox from '../components/ExpBox'
 import Skillbox from '../components/Skillbox'
+import { faPython, faHtml5, faCss3Alt, faReact, faBootstrap, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
 import './Experience.css'
 
@@ -55,7 +56,43 @@ class Experience extends React.Component {
         }
     ]
 
-    skillarray = ["C++", "Python", "HTML + CSS", "React", "Machine Learning", "Deep Learning"]
+    // skillarray = ["C++", "Python", "Machine Learning", "Deep Learning", "HTML + CSS", "React", "Bootstrap", "Git"]
+
+    skillarray = [
+        {
+            "skill": "C++"
+        },
+        {
+            "fa": faPython,
+            "skill": "Python"
+        },
+        {
+            "skill": "Machine Learning"
+        },
+        {
+            "skill": "Deep Learning"
+        },
+        {
+            "fa": faHtml5,
+            "skill": "HTML"
+        },
+        {
+            "fa": faCss3Alt,
+            "skill": "CSS"
+        },
+        {
+            "fa": faReact,
+            "skill": "React"
+        },
+        {
+            "fa": faBootstrap,
+            "skill": "Bootstrap"
+        },
+        {
+            "fa": faGitAlt,
+            "skill": "Git"
+        },
+    ]
 
     render() {
         return (
@@ -70,15 +107,23 @@ class Experience extends React.Component {
                     />
                 </div>
                 <div className="right-container">
-                    <h1>{this.state.pageTitle2}<span className="blinking-cursor2">|</span></h1>
+                    <h1>some technologies and domains i like working in</h1>
                     <div className="skill-box">
                         {this.skillarray.map(skill => {
                             return (
                                 <Skillbox 
-                                    skill={skill}
+                                    fa={skill.fa}
+                                    skill={skill.skill}
                                 />
                             )
                         })}
+                    </div>
+                    <div className="achievements-box">
+                        <ul>
+                            <li>My team and I were in the top 10 teams in Execute Hack.</li>
+                            <li>We also won an honourable mention at nwHacks 2021.</li>
+                            <li>We were also first in our college and second in the city in Data Maestro 2020, a machine learning competition hosted on Kaggle.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

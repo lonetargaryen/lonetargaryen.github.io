@@ -29,8 +29,10 @@
 
 .right-container h1 {
     color: #a1c4fd;
-    font-size: 4rem;
-    padding-left: 12%;
+    font-size: 2.2rem;
+    padding-left: 7%;
+    padding-right: 12%;
+    margin-top: 8%;
 }
 
 .left-container .blinking-cursor {
@@ -52,9 +54,41 @@
 .skill-box {
     display: flex;
     flex-direction: row;
-    margin-left: 12%;
+    margin-left: 7%;
     font-size: 1.2rem;
     flex-wrap: wrap;
+    padding-right: 12%;
+}
+
+.achievements-box {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 5%;
+    margin-left: 7%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: rgb(95, 114, 189, 0.25);
+    border-radius: 6px;
+    width: 73%;
+}
+
+.achievements-box ul {
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+}
+
+.achievements-box h3 {
+    font-size: 2rem;
+    color: #a1c4fd;
+}
+
+.achievements-box li {
+    color: #ccd6f6;
+    margin: 1.5% 0%;
+    font-size: 1.2rem;
 }
   
 @keyframes blink2 {
@@ -163,6 +197,40 @@
         text-align: center;
         padding-left: 0%;
     }
+
+    .right-container h1 {
+        padding-right: 0%;
+        padding-left: 0%;
+        text-align: center;
+        font-size: 1.5rem;
+        width: 85%;
+        /* margin: auto; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    }
+
+    .skill-box {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 0%;
+    }
+
+    .achievements-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    .achievements-box li {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -176,9 +244,18 @@
         width: 100%;
     }
 
-    .left-container h1 {
+    .left-container h1, .right-container h1 {
         font-size: 5rem;
         text-align: center;
         padding-left: 0%;
+    }
+
+    .skill-box {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
     }
 }

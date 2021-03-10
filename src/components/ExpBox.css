@@ -19,13 +19,13 @@
 
 .expbox-pointer {
     display: inline;
-    position: fixed;
+    position: relative;
     background: #e35d6a;
-    width: 4%;
+    width: 8%;
     /* max-height: 1%; */
     font-size: 1%;
-    top: 59%;
-    left: 4.5%;
+    top: 10vh;
+    left: -10%;
     opacity: 0.7;
 }
 
