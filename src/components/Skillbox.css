@@ -38,7 +38,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .div-skillbox p {
+    .div-skillbox, .skillbox-fa {
         font-size: 1.9rem;
     }
 }

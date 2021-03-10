@@ -66,9 +66,10 @@
     color: white;
     margin-top: 5%;
     margin-left: 7%;
-    padding-left: 5%;
+    padding-left: 9%;
     padding-bottom: 5%;
     padding-top: 5%;
+    padding-right: 3%;
     background-color: rgb(95, 114, 189, 0.25);
     border-radius: 6px;
     width: 73%;
@@ -222,7 +223,7 @@
     .achievements-box {
         margin-left: auto;
         margin-right: auto;
-        width: 85%;
+        /* width: 85%; */
         margin-bottom: 10%;
         margin-top: 10%;
     }
@@ -250,12 +251,24 @@
         padding-left: 0%;
     }
 
+    .right-container h1 {
+        padding-right: 0;
+        font-size: 2.7rem;
+    }
+
     .skill-box {
         margin-left: auto;
         margin-right: auto;
-        font-size: 1.2rem;
-        flex-wrap: wrap;
         justify-content: center;
         width: 80%;
+        padding-right: 0;
+    }
+
+    .achievements-box {
+        margin-bottom: 10%;
+    }
+
+    .achievements-box li {
+        font-size: 1.8rem;
     }
 }

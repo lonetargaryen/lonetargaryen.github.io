@@ -8,7 +8,7 @@ class Skillbox extends React.Component {
 	render() {
 		return (
             <div className="div-skillbox">
-				<FontAwesomeIcon icon={this.props.fa} className="skillbox-fa" />
+				{this.props.fa && <FontAwesomeIcon icon={this.props.fa} className="skillbox-fa" />}
                 {this.props.skill}
             </div>
 		)
