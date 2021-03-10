@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faHome, faLink, faProjectDiagram, faTrophy } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faHome, faLink, faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
 
 export const SidebarData = [
     {
@@ -14,12 +14,12 @@ export const SidebarData = [
         icon: <FontAwesomeIcon icon={faProjectDiagram} />,
         cName: 'nav-text'
     },
-    {
-        title: 'Skills',
-        path: '/skills-and-achievements',
-        icon: <FontAwesomeIcon icon={faTrophy} />,
-        cName: 'nav-text'
-    },
+    // {
+    //     title: 'Skills',
+    //     path: '/skills-and-achievements',
+    //     icon: <FontAwesomeIcon icon={faTrophy} />,
+    //     cName: 'nav-text'
+    // },
     {
         title: 'Experience',
         path: '/experience',
