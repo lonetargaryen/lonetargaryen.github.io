@@ -16,7 +16,7 @@ class Connect extends React.Component {
         },
         {
             "icon": faGithubSquare,
-            "url":"https://github.com/lonetargaryen5"
+            "url":"https://github.com/lonetargaryen"
         },
         {
             "icon": faLinkedin,

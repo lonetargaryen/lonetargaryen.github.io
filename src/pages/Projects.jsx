@@ -42,7 +42,7 @@ class Projects extends React.Component {
             "projectDesc": "Arkvl is a web-based book recommender system that recommends books to users based on their likes and lets users explore books from a wide catalog based on their favourite authors and genres.",
             "technologies": ["React", "Flask", "PostgreSQL"],
             "projectLink": "https://arkvl.space",
-            "githubLink": "https://github.com/LethalPants/arkvl",
+            "githubLink": "https://github.com/lonetargaryen/arkvl",
             "youtubeLink": ""
         },
         {
@@ -51,7 +51,7 @@ class Projects extends React.Component {
             "projectDesc": "Moboshop is a project my team and I made for nwHacks 2021. It's an innovative solution that uses computer vision to add items to your bill as you place them in your cart. After a customer has completed shopping, they can checkout on the app with the tap of a button, and walk out the store. It's that simple!",
             "technologies": ["Tensorflow", "Ionic", "Node.js"],
             "projectLink": "https://devpost.com/software/moboshop",
-            "githubLink": "https://github.com/Sidhant341/contactless-payment-system",
+            "githubLink": "https://github.com/lonetargaryen/contactless-payment-system",
             "youtubeLink": "https://www.youtube.com/watch?v=rRioIG9Tavw"
         },
         {
@@ -60,7 +60,7 @@ class Projects extends React.Component {
             "projectDesc": "This is a project my team and I built for ExecuteHack. It's an efficient AI-enhanced supply chain that will facilitate the distribution of a COVID-19 vaccine in India, and deal with the pitfalls of the existing cold chain.",
             "technologies": ["Ionic", "Node.js", "PostgreSQL"],
             "projectLink": "https://devpost.com/software/modular-supply-chain-system",
-            "githubLink": "https://github.com/LethalPants/supply-chain-user-app",
+            "githubLink": "https://github.com/lonetargaryen/supply-chain-user-app",
             "youtubeLink": "https://www.youtube.com/watch?v=U1q644qJzUo"
         },
         {
@@ -69,7 +69,7 @@ class Projects extends React.Component {
             "projectDesc": "Hirewolf is an online testing platform that has relevant tests curated for relevant jobs, intended to make the lives of both recruiters and applicants much easier.",
             "technologies": ["React", "Tailwind CSS", "Node.js"],
             "projectLink": "https://devpost.com/software/hirewolf",
-            "githubLink": "https://github.com/athmihir/HIREWOLF",
+            "githubLink": "https://github.com/lonetargaryen/HIREWOLF",
             "youtubeLink": ""
         }
     ];
