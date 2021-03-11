@@ -5,6 +5,7 @@ import './Projects.css'
 import arkvl from '../images/arkvl.png'
 import moboshop from '../images/moboshop.png'
 import modular from '../images/modular.png'
+import hirewolf from '../images/hirewolf.png'
 
 class Projects extends React.Component {
     constructor(props) {
@@ -61,6 +62,15 @@ class Projects extends React.Component {
             "projectLink": "https://devpost.com/software/modular-supply-chain-system",
             "githubLink": "https://github.com/LethalPants/supply-chain-user-app",
             "youtubeLink": "https://www.youtube.com/watch?v=U1q644qJzUo"
+        },
+        {
+            "imgSource": hirewolf,
+            "projectTitle": "Hirewolf",
+            "projectDesc": "Hirewolf is an online testing platform that has relevant tests curated for relevant jobs, intended to make the lives of both recruiters and applicants much easier.",
+            "technologies": ["React", "Tailwind CSS", "Node.js"],
+            "projectLink": "https://devpost.com/software/hirewolf",
+            "githubLink": "https://github.com/athmihir/HIREWOLF",
+            "youtubeLink": ""
         }
     ];
 
@@ -102,6 +112,17 @@ class Projects extends React.Component {
                     githubLink={this.projectArray[2].githubLink}
                     youtubeLink={this.projectArray[2].youtubeLink}
                     isEven={true}
+                    sidebar={this.props.sidebar}
+                    />
+                    <Project 
+                    imgSource={this.projectArray[3].imgSource} 
+                    projectTitle={this.projectArray[3].projectTitle} 
+                    projectDesc={this.projectArray[3].projectDesc} 
+                    technologies={this.projectArray[3].technologies}
+                    projectLink={this.projectArray[3].projectLink}
+                    githubLink={this.projectArray[3].githubLink}
+                    youtubeLink={this.projectArray[3].youtubeLink}
+                    isEven={false}
                     sidebar={this.props.sidebar}
                     />
                 </div>

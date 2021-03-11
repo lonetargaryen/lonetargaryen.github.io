@@ -15,7 +15,7 @@ class About extends React.Component {
                     i enjoy solving problems with a <span style={{color: "#f6d365"}}>team</span>.
                 </p>
                 <p className="about-me-p">
-                    i dabble in <span style={{color: "#ffb199"}}>machine learning</span> <Emoji symbol="⚙️" label="gear"/> and
+                    i dabble in <span style={{color: "#ffb199"}}>machine learning</span> <Emoji symbol="⚙️" label="gear" rotate={true}/> and
                     <span style={{color: "#92fe9d"}}> front-end web development</span> <Emoji symbol="🕸️" label="web"/>.
                 </p>
                 <p className="about-me-p">

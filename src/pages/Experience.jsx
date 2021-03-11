@@ -120,9 +120,9 @@ class Experience extends React.Component {
                     </div>
                     <div className="achievements-box">
                         <ul>
-                            <li>My team and I were in the top 10 teams in Execute Hack.</li>
-                            <li>We also won an honourable mention at nwHacks 2021.</li>
-                            <li>We were also first in our college and second in the city in Data Maestro 2020, a machine learning competition hosted on Kaggle.</li>
+                            <li>My team and I were in the top 10 teams in <a href="http://www.youtube.com/watch?v=BoRzMSs4hvY&t=48m42s" className="achievement-link" target="_blank" rel="noopener noreferrer">Execute Hack</a>.</li>
+                            <li>We also won an honourable mention at <a href="https://devpost.com/software/moboshop" className="achievement-link" target="_blank" rel="noopener noreferrer">nwHacks 2021</a>.</li>
+                            <li>We were also first in our college and second in the city in <a href="https://www.kaggle.com/c/datamaestro2020/leaderboard" className="achievement-link" target="_blank" rel="noopener noreferrer">Data Maestro 2020</a>, a machine learning competition hosted on Kaggle and among the top 10 in Data-Quest 2020.</li>
                         </ul>
                     </div>
                 </div>

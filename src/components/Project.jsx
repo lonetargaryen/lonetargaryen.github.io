@@ -31,7 +31,9 @@ class Project extends React.Component {
                     <SkeletonTheme color="#1b2735" highlightColor="#444">
                         {!this.state.image && <Skeleton className="project-skeleton" /> }
                     </SkeletonTheme>
-                    <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                    <div className="image-background-div">
+                        <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                    </div>
                     <div className="project-info">
                         <h2><a href={this.props.projectLink}>{this.props.projectTitle}</a></h2>
                         <p>{this.props.projectDesc}</p>
@@ -105,7 +107,9 @@ class Project extends React.Component {
                     <SkeletonTheme color="#1b2735" highlightColor="#444">
                         {!this.state.image && <Skeleton className="project-skeleton" /> }
                     </SkeletonTheme>
-                    <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                    <div className="image-background-div">
+                        <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                    </div>
                 </div>
                 }
             </div>

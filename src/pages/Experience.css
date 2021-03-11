@@ -91,6 +91,16 @@
     margin: 1.5% 0%;
     font-size: 1.2rem;
 }
+
+.achievement-link {
+    text-decoration: none;
+    color: #e35d6a;
+    font-weight: bold;
+}
+
+.achievement-link:hover {
+    text-decoration: underline;
+}
   
 @keyframes blink2 {
     from, to {
