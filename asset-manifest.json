@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18ad8a18.chunk.css",
+    "main.js": "/static/js/main.19983a3d.chunk.js",
+    "main.js.map": "/static/js/main.19983a3d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3d9638ce.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3d9638ce.js.map",
+    "static/js/2.796fc9de.chunk.js": "/static/js/2.796fc9de.chunk.js",
+    "static/js/2.796fc9de.chunk.js.map": "/static/js/2.796fc9de.chunk.js.map",
+    "static/js/3.9518285e.chunk.js": "/static/js/3.9518285e.chunk.js",
+    "static/js/3.9518285e.chunk.js.map": "/static/js/3.9518285e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.18ad8a18.chunk.css.map": "/static/css/main.18ad8a18.chunk.css.map",
+    "static/js/2.796fc9de.chunk.js.LICENSE.txt": "/static/js/2.796fc9de.chunk.js.LICENSE.txt",
+    "static/media/Name.css": "/static/media/SFMonoRegular.461031a2.woff",
+    "static/media/index.css": "/static/media/SFPro.1e1c0e29.ttf",
+    "static/media/arkvl.4b95aa10.png": "/static/media/arkvl.4b95aa10.png",
+    "static/media/hirewolf.f3ffc0c5.png": "/static/media/hirewolf.f3ffc0c5.png",
+    "static/media/moboshop.c3889390.png": "/static/media/moboshop.c3889390.png",
+    "static/media/modular.6a84a8c1.png": "/static/media/modular.6a84a8c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d9638ce.js",
+    "static/js/2.796fc9de.chunk.js",
+    "static/css/main.18ad8a18.chunk.css",
+    "static/js/main.19983a3d.chunk.js"
+  ]
+}
