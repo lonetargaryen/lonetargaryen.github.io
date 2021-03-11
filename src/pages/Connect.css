@@ -1,0 +1,130 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -5%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.root-connect-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s ease-in both;
+    width: 100%;
+}
+
+.root-connect-div h2 {
+    padding-top: 5%;
+    color: #4dd4ac;
+    font-size: calc(0.75em + 4vmin);
+    position: relative;
+}
+
+.root-connect-div h2:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5%;
+    left: 0;
+    background: #9CF5A6;
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .50s linear;
+}
+
+.root-connect-div h2:hover:before, .root-connect-div h2:focus:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.icon-connect-div {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.individual-icon-div {
+    background-color: transparent;
+    margin: 1% 15%;
+    transition: transform 0.5s;
+}
+
+.individual-icon-div:hover {
+    transform: translateY(-7px);
+}
+
+.individual-icon-link {
+    font-size: calc(0.75em + 5vmin);
+    color: #FB4264;
+    transition: color 200ms;
+    background-color: transparent;
+    padding: 1% 15%;
+}
+
+.individual-icon-link:hover {
+    color: #FFD700;
+}
+
+.download-resume-div {
+    padding-top: 2%;
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 14em 0 0 0 var(--hover);
+}
+
+.slide {
+    --color: #FB4264;
+    --hover: #FFD700;
+  }
+
+  button {
+    background: none;
+    border: 2px solid;
+    /* font: inherit; */
+    font-size: 1.1rem;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    border-radius: 6px;
+  }
+
+  button {
+    color: var(--color);
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: black;
+  }
+
+@media only screen and (max-width: 480px) {
+    .root-connect-div h2 {
+        font-size: calc(0.75em + 6vmin);
+    }
+
+    .icon-connect-div {
+        width: 50%;
+    }
+
+    .individual-icon-link {
+        font-size: calc(0.75em + 7vmin);
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .download-resume-div {
+        padding-top: 5%;
+    }
+}

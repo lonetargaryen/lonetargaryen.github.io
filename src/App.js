@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import Experience from './pages/Experience.jsx'
+import Connect from './pages/Connect.jsx'
 import Sidebar from './components/Sidebar';
 import './App.css';
 
@@ -32,6 +33,9 @@ function App() {
 					</Route>
 					<Route path="/experience">
 						<Experience sidebar={sidebar} />
+					</Route>
+					<Route path="/connect">
+						<Connect sidebar={sidebar} />
 					</Route>
 					<Route path="/">
 						<Home />

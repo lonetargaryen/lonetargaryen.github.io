@@ -12,10 +12,7 @@ class Experience extends React.Component {
         this.state = {
             i: 0,
             pageTitle: '',
-            finalTitle: 'Work Experience',
-            j: 0,
-            pageTitle2: '',
-            finalTitle2: 'Skills',
+            finalTitle: 'Experience',
         };
     }
 
@@ -25,26 +22,16 @@ class Experience extends React.Component {
 			setTimeout(this.typeWriter, 150);
 		}
 	}
-    
-    typeWriter2 = () => {
-		if (this.state.j < this.state.finalTitle2.length) {
-			this.tick();
-			setTimeout(this.typeWriter2, 250);
-		}
-	}
 
 	tick = () => {
 		this.setState({
             pageTitle: this.state.pageTitle + this.state.finalTitle.charAt(this.state.i),
 			i: this.state.i + 1,
-            pageTitle2: this.state.pageTitle2 + this.state.finalTitle2.charAt(this.state.j),
-			j: this.state.j + 1
 		});
 	}
 
 	componentDidMount() {
 		this.typeWriter();
-        this.typeWriter2();
 	}
 
     exparray = [
@@ -109,11 +96,12 @@ class Experience extends React.Component {
                 <div className="right-container">
                     <h1>some technologies and domains i like working in</h1>
                     <div className="skill-box">
-                        {this.skillarray.map(skill => {
+                        {this.skillarray.map((skill, key) => {
                             return (
                                 <Skillbox 
                                     fa={skill.fa}
                                     skill={skill.skill}
+                                    key={key}
                                 />
                             )
                         })}

@@ -93,13 +93,13 @@
 }
 
 .achievement-link {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #e35d6a;
     font-weight: bold;
 }
 
 .achievement-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
   
 @keyframes blink2 {

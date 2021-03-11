@@ -35,7 +35,7 @@ class Project extends React.Component {
                         <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
                     </div>
                     <div className="project-info">
-                        <h2><a href={this.props.projectLink}>{this.props.projectTitle}</a></h2>
+                        <h2><a href={this.props.projectLink} target="_blank" rel="noopener noreferrer">{this.props.projectTitle}</a></h2>
                         <p>{this.props.projectDesc}</p>
                         <div className="align-flex-end-div">
                             <div className="project-footer-div">
@@ -71,7 +71,7 @@ class Project extends React.Component {
                 </div> : 
                 <div className="project-div reverse-project-div">
                     <div className="project-info odd-project-info">
-                        <h2><a href={this.props.projectLink}>{this.props.projectTitle}</a></h2>
+                        <h2><a href={this.props.projectLink} target="_blank" rel="noopener noreferrer">{this.props.projectTitle}</a></h2>
                         <p>{this.props.projectDesc}</p>
                         <div className="align-flex-end-div">
                             <div className="project-footer-div">
