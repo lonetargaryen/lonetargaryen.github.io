@@ -1,3 +1,44 @@
+# :star: [My Online Portfolio](https://lonetargaryen.github.io/)
+
+This repository contains the source code of [my online portfolio](https://lonetargaryen.github.io/), hosted on [GitHub Pages](https://pages.github.com/). I created this single-page application using React.
+
+## Setting up and running
+
+After cloning, install all dependencies in your local node_modules folder using
+
+```bash
+npm install
+```
+
+Then run the app using
+
+
+```bash
+npm start
+```
+
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
