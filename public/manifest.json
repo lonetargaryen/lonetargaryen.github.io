@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Swarnim Sonawane",
+  "name": "Swarnim Sonawane",
+  "description": "Hey there! I am Swarnim Sonawane and this is my little virtual space on the internet. Come say hi!",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#FB4264",
+  "background_color": "#1b2735"
 }
