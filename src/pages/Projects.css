@@ -92,11 +92,16 @@
         font-size: 3rem;
         padding-left: 0%;
     }
+
+    .root-projects-div-sidebar {
+        opacity: 0.2 !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .root-projects-div {
         width: 100%;
+        margin-top: 5%;
     }
 
     .projects-heading {

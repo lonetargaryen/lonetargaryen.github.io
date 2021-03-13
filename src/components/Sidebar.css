@@ -187,7 +187,7 @@ ul {
         font-size: calc(10px + 6vmin);
         display: flex;
         flex-direction: column;
-        padding: 3vmin 0;
+        padding: 5vmin 0;
     }
 
     .nav-text a {
@@ -264,6 +264,7 @@ ul {
         width: 60%;
         height: 9vh;
         padding: 2%;
+        margin-top: 7%;
     }
 
     .nav-text, .navbar-toggle {

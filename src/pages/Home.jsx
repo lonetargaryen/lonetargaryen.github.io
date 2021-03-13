@@ -7,7 +7,7 @@ import './Home.css'
 class Home extends React.Component {
     render() {
         return (
-            <div className="root-home-div">
+            <div className={this.props.sidebar ? "root-home-div root-home-div-sidebar" : "root-home-div"}>
                 <Name />
                 <About />
             </div>

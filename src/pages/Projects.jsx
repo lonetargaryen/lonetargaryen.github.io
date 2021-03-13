@@ -76,7 +76,7 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div className="root-projects-div">
+            <div className={this.props.sidebar ? "root-projects-div root-projects-div-sidebar" : "root-projects-div"}>
                 <div className="projects-heading">
                     <h1>{this.state.pageTitle}<span className="blinking-cursor">|</span></h1>
                 </div>

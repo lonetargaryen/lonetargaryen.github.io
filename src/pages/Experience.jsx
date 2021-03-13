@@ -39,7 +39,7 @@ class Experience extends React.Component {
             "position": "Fintech Data Science Intern",
             "company": "Sarvatra Technologies",
             "duration": "August 2020 to October 2020",
-            "description": "Worked on a data science project about predicting fraudulent debit card transactions using multivariate outlier detection."
+            "description": "Worked on a data science project aiming to predict fraudulent debit card transactions using multivariate outlier detection. My project partner and I utilized an imbalanced dataset of four million real-world transactions to detect anomalous behaviour using unsupervised learning algorithms."
         }
     ]
 
@@ -83,7 +83,7 @@ class Experience extends React.Component {
 
     render() {
         return (
-            <div className="root-exp-div">
+            <div className={this.props.sidebar ? "root-exp-div root-exp-div-sidebar" : "root-exp-div"}>
                 <div className="left-container">
                     <h1>{this.state.pageTitle}<span className="blinking-cursor">|</span></h1>
                     <ExpBox 

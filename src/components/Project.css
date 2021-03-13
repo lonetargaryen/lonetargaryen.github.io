@@ -254,14 +254,6 @@ h2 > a:hover:before, h2 > a:focus:before {
     .project-info h2 {
         font-size: 2.5rem;
     }
-
-    .sidebar-active-image-class {
-        opacity: 0.2;
-    }
-
-    .sidebar-image-class {
-        opacity: 1;
-    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -362,14 +354,6 @@ h2 > a:hover:before, h2 > a:focus:before {
     .project-info h2 {
         font-size: 3.5rem;
     }
-
-    .sidebar-active-image-class {
-        opacity: 1;
-    }
-
-    /* .sidebar-image-class {
-        opacity: 1;
-    } */
 
     .project-info p {
         font-size: 2rem;

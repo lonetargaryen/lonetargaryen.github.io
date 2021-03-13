@@ -9,10 +9,15 @@
     .root-home-div {
         flex-direction: column;
     }
+
+    .root-home-div-sidebar {
+        opacity: 0.5 !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .root-home-div {
         flex-direction: column;
+        margin-top: 5%;
     }
 }

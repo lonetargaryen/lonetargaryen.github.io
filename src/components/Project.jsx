@@ -32,7 +32,7 @@ class Project extends React.Component {
                         {!this.state.image && <Skeleton className="project-skeleton" /> }
                     </SkeletonTheme>
                     <div className="image-background-div">
-                        <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                        <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" />
                     </div>
                     <div className="project-info">
                         <h2><a href={this.props.projectLink} target="_blank" rel="noopener noreferrer">{this.props.projectTitle}</a></h2>
@@ -108,7 +108,7 @@ class Project extends React.Component {
                         {!this.state.image && <Skeleton className="project-skeleton" /> }
                     </SkeletonTheme>
                     <div className="image-background-div">
-                        <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" className={this.props.sidebar ? "sidebar-active-image-class" : "sidebar-image-class"} />
+                        <img src={this.props.imgSource} style={imageStyle} onLoad={this.handleImageLoaded.bind(this)} alt="Screenshot of Project" />
                     </div>
                 </div>
                 }

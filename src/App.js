@@ -38,7 +38,7 @@ function App() {
 						<Connect sidebar={sidebar} />
 					</Route>
 					<Route path="/">
-						<Home />
+						<Home sidebar={sidebar} />
 					</Route>
 		
 				</Switch>

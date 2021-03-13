@@ -199,6 +199,10 @@
         padding-top: 0%;
     }
 
+    .root-exp-div-sidebar {
+        opacity: 0.5 !important;
+    }
+
     .left-container, .right-container {
         width: 100%;
     }
@@ -249,6 +253,7 @@
         flex-direction: column;
         width: 100%;
         padding-top: 0%;
+        margin-top: 5%;
     }
 
     .left-container, .right-container {
