@@ -203,6 +203,12 @@
         opacity: 0.5 !important;
     }
 
+    @-moz-document url-prefix() { 
+        .root-exp-div-sidebar {
+            filter: blur(6px);
+        }
+    }
+
     .left-container, .right-container {
         width: 100%;
     }

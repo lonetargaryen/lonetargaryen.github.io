@@ -178,6 +178,7 @@ ul {
         left: -100%;
         backdrop-filter: blur(6px);
         -webkit-backdrop-filter: blur( 2px );
+        /* filter: blur(2px); */
         /* margin-top: auto; */
         /* margin-bottom: auto; */
         z-index: 1;
@@ -215,7 +216,7 @@ ul {
         animation: none;
     }
 
-    .nav-menu.active {
+    .active {
         display: flex;
         flex-direction: column;
         top: 2%;
@@ -264,7 +265,7 @@ ul {
         width: 60%;
         height: 9vh;
         padding: 2%;
-        margin-top: 7%;
+        /* margin-top: 7%; */
     }
 
     .nav-text, .navbar-toggle {

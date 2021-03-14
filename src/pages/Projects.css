@@ -96,6 +96,12 @@
     .root-projects-div-sidebar {
         opacity: 0.2 !important;
     }
+
+    @-moz-document url-prefix() { 
+        .root-projects-div-sidebar {
+            filter: blur(6px);
+        }
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
