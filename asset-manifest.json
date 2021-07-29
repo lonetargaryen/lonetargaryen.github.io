@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c24d5008.chunk.css",
-    "main.js": "/static/js/main.d5913b54.chunk.js",
-    "main.js.map": "/static/js/main.d5913b54.chunk.js.map",
+    "main.css": "/static/css/main.123623ac.chunk.css",
+    "main.js": "/static/js/main.758d8db0.chunk.js",
+    "main.js.map": "/static/js/main.758d8db0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e6480d82.js",
     "runtime-main.js.map": "/static/js/runtime-main.e6480d82.js.map",
     "static/js/2.f9ead8a3.chunk.js": "/static/js/2.f9ead8a3.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
-    "static/css/main.c24d5008.chunk.css.map": "/static/css/main.c24d5008.chunk.css.map",
+    "static/css/main.123623ac.chunk.css.map": "/static/css/main.123623ac.chunk.css.map",
     "static/js/2.f9ead8a3.chunk.js.LICENSE.txt": "/static/js/2.f9ead8a3.chunk.js.LICENSE.txt",
     "static/media/Name.css": "/static/media/SFMonoRegular.461031a2.woff",
     "static/media/index.css": "/static/media/SFPro.1e1c0e29.ttf",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e6480d82.js",
     "static/js/2.f9ead8a3.chunk.js",
-    "static/css/main.c24d5008.chunk.css",
-    "static/js/main.d5913b54.chunk.js"
+    "static/css/main.123623ac.chunk.css",
+    "static/js/main.758d8db0.chunk.js"
   ]
 }
