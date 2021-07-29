@@ -41,7 +41,7 @@ class Projects extends React.Component {
             "projectTitle": "Arkvl",
             "projectDesc": "Arkvl is a web-based book recommender system that recommends books to users based on their likes and lets users explore books from a wide catalog based on their favourite authors and genres.",
             "technologies": ["React", "Flask", "PostgreSQL"],
-            "projectLink": "https://arkvl.space",
+            "projectLink": "http://arkvl.herokuapp.com/",
             "githubLink": "https://github.com/lonetargaryen/arkvl",
             "youtubeLink": ""
         },
