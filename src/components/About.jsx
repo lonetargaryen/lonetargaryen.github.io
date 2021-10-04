@@ -8,7 +8,7 @@ class About extends React.Component {
 	render() {
 		return (
 			<div className="about-me-div">
-				<h4 className="about-me-heading">i'm a <span className="student-span">student</span> in my junior
+				<h4 className="about-me-heading">i'm a <span className="student-span">student</span> in my final
                 year of <span className="engineering-span">computer engineering</span>.</h4>
                 <p className="about-me-p">
                     i like writing &#123; <span style={{color: "#43e97b"}}>code</span> &#125; that turn ideas to reality and
