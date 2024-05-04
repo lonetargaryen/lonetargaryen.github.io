@@ -36,6 +36,18 @@ class Experience extends React.Component {
 
     exparray = [
         {
+            "position": "Software Engineer",
+            "company": "Bloomberg L. P.",
+            "duration": "August 2022 - Present",
+            "description": "Worked as a full-stack engineer on multiple client-facing projects in the Trading Systems department. Redesigned and modularized backend C++ services and contributed to porting legacy C++ libraries to Linux. Engineering lead on a new project to build a clean & responsive UI for performing operations on custom data lists."
+        },
+        {
+            "position": "Software Engineer Intern",
+            "company": "Bloomberg L. P.",
+            "duration": "February 2022 to May 2022",
+            "description": "Interned on a project to unify two buy-side systems AIM and PORT in Trading Systems for a better client-side experience. Contributed to UI enhancements for this project and added new functionality requested by clients to the backend C++ service powering the same."
+        },
+        {
             "position": "Fintech Data Science Intern",
             "company": "Sarvatra Technologies",
             "duration": "August 2020 to October 2020",
@@ -91,6 +103,18 @@ class Experience extends React.Component {
                         company={this.exparray[0].company}
                         duration={this.exparray[0].duration}
                         description={this.exparray[0].description}
+                    />
+                    <ExpBox 
+                        position={this.exparray[1].position}
+                        company={this.exparray[1].company}
+                        duration={this.exparray[1].duration}
+                        description={this.exparray[1].description}
+                    />
+                    <ExpBox 
+                        position={this.exparray[2].position}
+                        company={this.exparray[2].company}
+                        duration={this.exparray[2].duration}
+                        description={this.exparray[2].description}
                     />
                 </div>
                 <div className="right-container">
